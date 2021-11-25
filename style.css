@@ -1,0 +1,51 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+
+} 
+.welcome-page{
+    background: url("images/background/h_img.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    position: relative; 
+   
+    
+} 
+.logo{
+  position: absolute; 
+  top: 30%; 
+  left: 50%;
+} 
+.welcome-page h1{ 
+    position: absolute;
+    top: 50%; 
+    left: 35%; 
+   
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 34px;
+} 
+.welcome-page p{
+    position: absolute; 
+    top: 60%; 
+    left: 40%; 
+   
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 12px;
+} 
+.mouse-icon{
+    position: absolute; 
+    top: 75%; 
+    left: 52%;
+} 
+.about{ 
+    background: url("images/background/h_img.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    position: relative; 
+
+}
