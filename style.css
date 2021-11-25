@@ -15,37 +15,65 @@
 } 
 .logo{
   position: absolute; 
-  top: 30%; 
+  top: 25%; 
   left: 50%;
 } 
 .welcome-page h1{ 
     position: absolute;
-    top: 50%; 
+    top: 45%; 
     left: 35%; 
    
     text-align: center; 
     color: aliceblue; 
-    font-size: 34px;
+    font-size: 39px;
 } 
 .welcome-page p{
     position: absolute; 
-    top: 60%; 
+    top: 55%; 
     left: 40%; 
    
     text-align: center; 
     color: aliceblue; 
-    font-size: 12px;
+    font-size: 15px;
 } 
 .mouse-icon{
     position: absolute; 
-    top: 75%; 
-    left: 52%;
+    top: 65%; 
+    left: 53%;
 } 
 .about{ 
-    background: url("images/background/h_img.jpg"); 
+    background-color: beige; 
+    height: 70vh;  
+    width: 100%;
+    position: relative; 
+
+} 
+.about h1{
+    padding: 69px 0; 
+    text-align: center;  
+    left: 45%;
+} 
+.about .p1{ 
+    position: absolute; 
+    top: 20%;
+    left: 35%; 
+    width: 30%; 
+    margin: 3%; 
+    font-size: 17px;
+} 
+.about .p2{ 
+    position: absolute; 
+    top: 45%;
+    left: 35%; 
+    width: 30%; 
+    margin: 3%; 
+    font-size: 17px;
+}   
+.services{ 
+    background: url("images/background/s_image.jpg"); 
     background-size: cover; 
     background-position: center; 
-    height: 100vh; 
+    height: 50vh; 
     position: relative; 
 
 }
