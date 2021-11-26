@@ -175,13 +175,53 @@
     background: url("images/background/c_image.jpg");  
     background-size: cover;  
     background-position: center; 
-    height: 50vh; 
+    height: 55vh; 
     position: relative;
- 
+} 
+.contact-page h1{
+    padding: 70px 0; 
+    text-align: center; 
+    color: white; 
+
+} 
+.contact-page form{
+    
+    display: grid; 
+    grid-template-columns: 300px 300px;  
+    justify-content: center; 
+    grid-gap: 30px;
+
+    
+}  
+.contact-page form input{
+    height: 48px;  
+    text-align: center; 
+    background: transparent; 
+    border: 1px solid white; 
+} 
+.contact-page form input::placeholder{ 
+    color: white;  
+    font-weight: bolder; 
+    font-size: 15px;
+} 
+.contact-page form textarea{  
+    height: 78px; 
+    width: 539px; 
+    margin-left: 28%; 
+    background-color: transparent; 
+    border: 1px solid white; 
+    text-align: center;
+} 
+.contact-page form textarea::placeholder{
+    color: white;  
+    font-size: 15px; 
+    margin: 6%;
+
+} 
 
 
 
-}
+
 
 
 
