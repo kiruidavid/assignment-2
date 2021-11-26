@@ -79,7 +79,7 @@
 } 
 .services h1{ 
     position: absolute;
-    padding: 103px 0; 
+    padding: 70px 0; 
     text-align: center; 
     left: 45%; 
     
@@ -101,8 +101,6 @@
     width: 45%;  
     font-size: 17px;
     color: white;
-    
-  
 } 
 .services .p3{ 
     position: absolute; 
@@ -111,6 +109,79 @@
     width: 45%; 
     font-size: 17px;
     color: white;
-    
-  
+} 
+.portfolio{
+    background-color: beige;  
+    height: 150vh; 
+    width: 100%;   
+    position: relative;
+} 
+.portfolio h1{
+    position: absolute; 
+    padding: 55px 0; 
+    text-align: center; 
+    left: 40%;
+} 
+.what-we-do{  
+    position: relative;
+    width: 100%; 
+    margin: auto; 
+    display: flex; 
+    justify-content: center;  
+    vertical-align: top;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+} 
+.what-we-do-col{ 
+
+    flex-basis: 21%; 
+    padding: 5px; 
+    margin: 5.5%; 
+}  
+.what-we-do-col img{ 
+    margin: 12%;  
+    display: inline-block; 
+    position: relative; 
+    top: 50%; 
+    left: 30%;
+} 
+.what-we-do p{
+    margin: 3% 0 0 3%; 
+    position: relative; 
+} 
+.what-we-do h3{
+    margin: 2%; 
+    text-align: center;
+}  
+.portfolio-icons{
+    position: relative;
 }
+.icons{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+    padding: 92px;  
+    margin-left: 12%;
+    height: 50vh; 
+    width: 60%; 
+    justify-content: center;
+}   
+.icons img{
+    margin: 3%;
+    max-width: 100%; 
+    max-height: 100%;
+} 
+.contact-page{
+    background: url("images/background/c_image.jpg");  
+    background-size: cover;  
+    background-position: center; 
+    height: 50vh; 
+    position: relative;
+ 
+
+
+
+}
+
+
+
