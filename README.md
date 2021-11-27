@@ -1,0 +1,2 @@
+# DELANI STUDIOS 
+This is a web page made with HTML, CSS and Javascript. It is a portfolio page to show previous work. It is divided into several sections the top section or the welcome section,  about us section, services section, portfolio section with previous work, the contact us section and the footer section with various social media icons.
